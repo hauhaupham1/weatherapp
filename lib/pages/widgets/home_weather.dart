@@ -21,7 +21,7 @@ class HomeWeather extends StatelessWidget {
             ),
             Text(
               '${windSpeed.toString()} km/h',
-              style: TextStyle(fontSize: 21, color: Colors.white),
+              style: const TextStyle(fontSize: 21, color: Colors.white),
             )
           ],
         ),
@@ -35,7 +35,7 @@ class HomeWeather extends StatelessWidget {
             ),
             Text(
               '${humidity.toString()} %',
-              style: TextStyle(fontSize: 21, color: Colors.white),
+              style: const TextStyle(fontSize: 21, color: Colors.white),
             )
           ],
         )
