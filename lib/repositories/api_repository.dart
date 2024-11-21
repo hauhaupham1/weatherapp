@@ -7,7 +7,7 @@ class ApiRepository {
     try {
       final dio = Dio();
       final res = await dio.get(
-          'https://api.openweathermap.org/data/2.5/weather?lat=40.10798&lon=88.23380&units=metric&appid=${MyKey.api_key}');
+          'https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&units=metric&appid=${MyKey.api_key}');
       final data = res.data;
       WeatherModel result = WeatherModel.fromMap(data);
       return result;
